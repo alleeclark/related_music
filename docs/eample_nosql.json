@@ -1,0 +1,15 @@
+Artist {
+    MusicService: "Spotify"
+    Genre: "Hip-Hop /Rap"
+    RelatedArtist [
+        RelatedArtist 1
+        RelatedArtist 2
+    ]
+    TopTracks[
+        track 1
+        track 2
+        track 3
+        track 4
+        track 5
+    ]
+}
