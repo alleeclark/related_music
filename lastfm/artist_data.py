@@ -1,3 +1,6 @@
+import requests
+import json
+
 artist_list = ['100 Kila','100s','12 Gauge','2 Chainz']
 def artist_data(artist_list):
     artist_dic_final = {}
@@ -21,4 +24,4 @@ def artist_data(artist_list):
         artist_dic_final[artist_list[i]]['listeners_count'] = listeners_count
         
     return artist_dic_final
-artist_data(artist_list)
+print(artist_data(artist_list))
