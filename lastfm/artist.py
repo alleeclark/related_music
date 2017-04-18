@@ -1,6 +1,10 @@
 class Artist(object):
     f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
     names = []
+
+    def __init__(self):
+        f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
+        names = []
       
     def print_list_of_names(self):
         for name in self.f:
@@ -31,5 +35,6 @@ class Artist(object):
         this_object.list_of_names()
     
 testscript = Artist()
-artistz = "Future"
-testscript.print_list_of_names()
+artistz = "Nicki Minaj"
+if testscript.search_names(artistz) != True:
+    print("Nicki Minaj")
