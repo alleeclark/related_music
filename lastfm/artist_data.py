@@ -5,10 +5,10 @@ from artist import Artist
 
 
 class lastfm_rest_service:
-    #wikipedia_artist = Artist.get_list_of_names()
+    artist_dictionary = {}
 
     def get_lastfm_url(artist_name):
-        artist_name = "Juice (Đus)"
+        #url = 'http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Rick Ross&api_key=bae243fa08eccb50f4884d67fdc54b20&format=json'
         lastfm_url ='http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=&api_key=bae243fa08eccb50f4884d67fdc54b20&format=json'
         for letter in artist_name:
             if letter not in string.ascii_letters:
@@ -17,11 +17,14 @@ class lastfm_rest_service:
                 return False
     
     def get_artist_info(self, artist_name):
-         for name in self.wikipedia_artist:
-             get_lastfm_url(artist_name)
-            
-             
-             
+        response = requests.get(self.get_lastfm_url())
+        if response.status_code == requests.codes.OK:
+            # not parsing right 
+            artist_dic = response.json()['artist']
+            playcount = artist_dic['stats']['playcount']
+            listeners_count = artist_dic['stats']['listeners']
+            self.artist_dictionary[]
+            return self.artist_dictionary[artist_dic] =       
             
 
 
