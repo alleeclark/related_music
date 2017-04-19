@@ -1,3 +1,5 @@
+import bisect
+
 class Artist(object):
     f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
     names = []
@@ -30,11 +32,20 @@ class Artist(object):
                 lower_bound = mid_index + 1
             else:
                 upper_bound = mid_index
+                
+#this still needs some work
+    def add_to_list_of_names(self, artist_name):
+        if self.search_names(artist_name) == False:
+            new_list = bisect.insort(self.get_list_of_names(), artist_name)
+            self.f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'w')
+            for i in new_list:
+                self.f.write(new_list)
+            print("added")
+        else:
+            print("artist already in the list")
+        
 
     def test_script(this_object):
         this_object.list_of_names()
-    
+
 testscript = Artist()
-artistz = "Nicki Minaj"
-if testscript.search_names(artistz) != True:
-    print("Nicki Minaj")

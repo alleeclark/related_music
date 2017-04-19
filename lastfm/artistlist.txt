@@ -113,7 +113,7 @@ Bigg D
 Billy Woods
 Birdman
 Bishop Nehru
-Biz Markie[2]
+Biz Markie
 Bizarre
 Bizzy Bone
 BJ the Chicago Kid
@@ -152,7 +152,7 @@ Bumpy Knuckles
 Bun B
 Busdriver
 Bushwick Bill
-Busta Rhymes[2]
+Busta Rhymes
 Busy Bee Starski
 Butch Cassidy
 Common
@@ -454,7 +454,7 @@ Ice Cube
 I-20
 Iamsu!
 Ice Cube 
-Ice-T[2]
+Ice-T
 Iggy Azalea
 IHeartMemphis
 Ill Bill
@@ -641,7 +641,7 @@ Lil' Cease
 Lil' Fizz
 Lil' Flip
 Lil' Keke
-Lil' Kim[2]
+Lil' Kim
 Lil' O
 Lil' Ronnie
 Lil' Troy
@@ -756,7 +756,7 @@ Mod Sun
 Money-B
 Monie Love
 Mopreme Shakur
-Mos Def[2]
+Mos Def
 Mr. Capone-E
 Mr. Cheeks
 Mr. Collipark
@@ -798,7 +798,7 @@ No Malice
 Noah "40" Shebib
 Noname
 Nonchalant
-The Notorious B.I.G.[2]
+The Notorious B.I.G.
 Nottz
 Nujabes
 Nump
@@ -958,7 +958,7 @@ Scribe
 Scrilla
 Scrufizzer
 SD
-Sean Combs[2]
+Sean Combs
 Sean Paul
 Sean Price
 Sean T
@@ -998,7 +998,6 @@ Skyzoo
 SL Jones
 Sleepy Brown
 Slick Pulla
-Slick Rick[2]
 Slim Burna
 Slim Thug
 Slug
