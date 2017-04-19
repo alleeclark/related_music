@@ -1,14 +1,13 @@
 class Artist(object):
-    f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
-    names = []
+    f = open('C:/Users/danil/Documents/GitHub/related_music/lastfm/artistlist.txt', encoding='UTF-8')
+    f = f.read()
+    names = f.splitlines()
       
     def print_list_of_names(self):
         for name in self.f:
             print(name, end='')
 
     def get_list_of_names(self):
-        for name in self.f:
-            self.names.append(name)
         return self.names
 
     def search_names(self, artist_name):
@@ -32,4 +31,4 @@ class Artist(object):
     
 testscript = Artist()
 artistz = "Future"
-testscript.print_list_of_names()
+print(testscript.get_list_of_names())
