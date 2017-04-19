@@ -30,5 +30,11 @@ class Artist(object):
         this_object.list_of_names()
     
 testscript = Artist()
+<<<<<<< HEAD
 artistz = "Future"
 print(testscript.get_list_of_names())
+=======
+artistz = "Nicki Minaj"
+if testscript.search_names(artistz) != True:
+    print("Nicki Minaj")
+>>>>>>> origin/lastfm
