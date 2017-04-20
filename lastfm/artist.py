@@ -1,11 +1,11 @@
 import bisect
 
 class Artist(object):
-    f = open('/home/alleeclark/projects/related_music/lastfm/artistlist.txt', 'r')
+    f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
     names = []
 
     def __init__(self):
-        f = open('/home/alleeclark/projects/related_music/lastfm/artistlist.txt', 'r')
+        f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
         names = []
       
     def print_list_of_names(self):

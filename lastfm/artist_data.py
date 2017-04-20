@@ -6,13 +6,18 @@ from artist import Artist
 class lastfm_rest_service:
 
     def get_lastfm_url(self, artist_name):
-        #url = 'http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Rick Ross&api_key=bae243fa08eccb50f4884d67fdc54b20&format=json'
         lastfm_url ='http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=&api_key=bae243fa08eccb50f4884d67fdc54b20&format=json'
-        for letter in artist_name:
-            if letter not in string.ascii_letters:
-                return False
-            else:
-                return lastfm_url[:63] + artist_name + lastfm_url[63:]
+        isascii = lambda s: len(s) == len(s.encode())
+        if isascii(artist_name) == True:
+            return lastfm_url[:63] + artist_name + lastfm_url[63:]
+        else:
+            return False
+            
+        # for letter in artist_name:
+        #     if letter not in string.ascii_letters:
+        #         return False
+        #     else:
+        #         return lastfm_url[:63] + artist_name + lastfm_url[63:]
     
     def get_artist_info(self, artist_name):
         url = self.get_lastfm_url(artist_name)
@@ -30,4 +35,6 @@ class lastfm_rest_service:
 
 brick = lastfm_rest_service()
 name = "Rick Ross"
-brick.get_artist_info(name)
+name2 = "Juice (Đus)"
+print(brick.get_lastfm_url(name))
+print(brick.get_lastfm_url(name2))
