@@ -12,12 +12,6 @@ class lastfm_rest_service:
             return lastfm_url[:63] + artist_name + lastfm_url[63:]
         else:
             return False
-            
-        # for letter in artist_name:
-        #     if letter not in string.ascii_letters:
-        #         return False
-        #     else:
-        #         return lastfm_url[:63] + artist_name + lastfm_url[63:]
     
     def get_artist_info(self, artist_name):
         url = self.get_lastfm_url(artist_name)
@@ -34,7 +28,4 @@ class lastfm_rest_service:
             return False
 
 brick = lastfm_rest_service()
-name = "Rick Ross"
-name2 = "Juice (Đus)"
 print(brick.get_lastfm_url(name))
-print(brick.get_lastfm_url(name2))
