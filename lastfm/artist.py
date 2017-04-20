@@ -1,16 +1,16 @@
 import bisect
-
+#C:\Users\danil\Documents\GitHub\related_music\lastfm
 class Artist(object):
-    f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
+    f = open('C:/Users/danil/Documents/GitHub/related_music/lastfm/artistlist.txt', 'r')
     names = []
 
     def __init__(self):
-        f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'r')
+        f = open('C:/Users/danil/Documents/GitHub/related_music/lastfm/artistlist.txt', 'r')
         names = []
       
     def print_list_of_names(self):
         for name in self.f:
-            print(name, end='')
+            print(name, end='') 
 
     def get_list_of_names(self):
         for name in self.f:
