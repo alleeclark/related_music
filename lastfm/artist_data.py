@@ -14,7 +14,7 @@ class lastfm_rest_service:
             return False
     
     def get_artist_info(self, artist_name):
-        url = self.get_lastfm_url(artist_name)
+        url = self.get_artistinfo_url(artist_name)
         response = requests.get(url)
         if response.status_code == requests.codes.OK:
             artist_response = response.json()
@@ -27,5 +27,8 @@ class lastfm_rest_service:
         else:
             return False
 
+list_artist = Artist()
+listed = list_artist.get_list_of_names()
 brick = lastfm_rest_service()
-print(brick.get_lastfm_url(name))
+for i in listed:
+    print(brick.get_artist_info(i))
