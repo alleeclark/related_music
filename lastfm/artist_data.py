@@ -64,6 +64,17 @@ class lastfm_rest_service:
         return final_artist_dic
 
 # brick = lastfm_rest_service()
-# print(brick.final_artist_dic('Snoop Dogg'))
+# list_1 = ['100 Kila',
+# '100s',
+# '12 Gauge',
+# '2 Chainz',
+# '2 Pistols',
+# '2$ Fabo',
+# '21 Savage',
+# '2Mex',
+# '360',
+# '40 Glocc','50 Cent']
+# for i in list_1:
+#     print(brick.final_artist_dic(i))
 
 

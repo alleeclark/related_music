@@ -1,11 +1,11 @@
 import bisect
 #C:\Users\danil\Documents\GitHub\related_music\lastfm
 class Artist(object):
-    f = open('C:/Users/danil/Documents/GitHub/related_music/lastfm/artistlist.txt', 'r')
+    f = open('C:/Users/danil/Documents/GitHub/related_music/lastfm/artistlist_edited.txt', encoding = 'UTF-8')
     names = []
 
     def __init__(self):
-        f = open('C:/Users/danil/Documents/GitHub/related_music/lastfm/artistlist.txt', 'r')
+        f = open('C:/Users/danil/Documents/GitHub/related_music/lastfm/artistlist_edited.txt', encoding = 'UTF-8')
         names = []
       
     def print_list_of_names(self):
@@ -48,4 +48,5 @@ class Artist(object):
     def test_script(this_object):
         this_object.list_of_names()
 
-testscript = Artist()
+# testscript = Artist()
+# print(testscript.get_list_of_names())
