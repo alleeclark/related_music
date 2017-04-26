@@ -1,6 +1,5 @@
 import requests
 import json
-import string
 from artist import Artist
 
 class lastfm_rest_service:

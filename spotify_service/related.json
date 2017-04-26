@@ -1,0 +1,591 @@
+{
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/17lzZA2AlOHwCwFALHttmp"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 1201136
+    },
+    "genres" : [ "dwn trap", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/17lzZA2AlOHwCwFALHttmp",
+    "id" : "17lzZA2AlOHwCwFALHttmp",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/8a0f9090548262a85cceef38650642d3037fd1e0",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/bb890de37c6783253a5c1789ccc7be5e2897c51d",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/6d96184a942c83524860133a8d87d35a324c7364",
+      "width" : 160
+    } ],
+    "name" : "2 Chainz",
+    "popularity" : 86,
+    "type" : "artist",
+    "uri" : "spotify:artist:17lzZA2AlOHwCwFALHttmp"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6Ha4aES39QiVjR0L2lwuwq"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 609691
+    },
+    "genres" : [ "crunk", "deep trap", "dirty south rap", "dwn trap", "gangster rap", "hip hop", "memphis hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/6Ha4aES39QiVjR0L2lwuwq",
+    "id" : "6Ha4aES39QiVjR0L2lwuwq",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/00a43a70e679434c46002f4f76e7486dc9dce271",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/9951f2c7b098eb322204545b457d20cd016a8b59",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/cc2a500b33b80a5b0049a805b096f299c4d2b276",
+      "width" : 160
+    } ],
+    "name" : "Yo Gotti",
+    "popularity" : 76,
+    "type" : "artist",
+    "uri" : "spotify:artist:6Ha4aES39QiVjR0L2lwuwq"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/50co4Is1HCEo8bhOyUWKpn"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 1096747
+    },
+    "genres" : [ "dwn trap", "gangster rap", "pop rap", "rap", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/50co4Is1HCEo8bhOyUWKpn",
+    "id" : "50co4Is1HCEo8bhOyUWKpn",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/1eb847e76b0c8391cd9ec6dff07e93b86ec33d77",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/64713d8ad9d6f05dc5f55268f8fd1e7e2e89888f",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/25cdb6baf095e1e1f094a256bb6b3b1eceacc143",
+      "width" : 160
+    } ],
+    "name" : "Young Thug",
+    "popularity" : 87,
+    "type" : "artist",
+    "uri" : "spotify:artist:50co4Is1HCEo8bhOyUWKpn"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6vXTefBL93Dj5IqAWq6OTv"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 569532
+    },
+    "genres" : [ "dwn trap", "gangster rap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/6vXTefBL93Dj5IqAWq6OTv",
+    "id" : "6vXTefBL93Dj5IqAWq6OTv",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/e072f1e674dd3b720576e80a403ebaf19fd62163",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/bdaf0b155285ae2f4c8b5fe55836b39be3e4c026",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/4184473cafeece0efc34727ff8919fe2ee824433",
+      "width" : 160
+    } ],
+    "name" : "French Montana",
+    "popularity" : 80,
+    "type" : "artist",
+    "uri" : "spotify:artist:6vXTefBL93Dj5IqAWq6OTv"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5lHRUCqkQZCIWeX7xG4sYT"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 736772
+    },
+    "genres" : [ "deep trap", "dirty south rap", "dwn trap", "gangster rap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/5lHRUCqkQZCIWeX7xG4sYT",
+    "id" : "5lHRUCqkQZCIWeX7xG4sYT",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/7453cf6438c3348bd96d6b539d1a3934346e1d6f",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/4d727b9059fdb35163a1f99b1e717b3ea499fdbb",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/81f827947af044ae5a75d7b3c539a0bd0b27eaf2",
+      "width" : 160
+    } ],
+    "name" : "Rich Homie Quan",
+    "popularity" : 74,
+    "type" : "artist",
+    "uri" : "spotify:artist:5lHRUCqkQZCIWeX7xG4sYT"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6f4XkbvYlXMH0QgVRzW0sM"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 551577
+    },
+    "genres" : [ "crunk", "dirty south rap", "dwn trap", "gangster rap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music", "underground hip hop" ],
+    "href" : "https://api.spotify.com/v1/artists/6f4XkbvYlXMH0QgVRzW0sM",
+    "id" : "6f4XkbvYlXMH0QgVRzW0sM",
+    "images" : [ {
+      "height" : 666,
+      "url" : "https://i.scdn.co/image/6faeed735eb5b980b20bfebfc071f942a0285a29",
+      "width" : 1000
+    }, {
+      "height" : 426,
+      "url" : "https://i.scdn.co/image/a6f13f0ae99500db5cf555d1327bef014d0a0489",
+      "width" : 640
+    }, {
+      "height" : 133,
+      "url" : "https://i.scdn.co/image/873cb9d0a069551efa8a8aa178d755c7ad40294f",
+      "width" : 200
+    }, {
+      "height" : 43,
+      "url" : "https://i.scdn.co/image/15300b99e14dd8df4eb901a84942b2ad901f9d64",
+      "width" : 64
+    } ],
+    "name" : "Waka Flocka Flame",
+    "popularity" : 71,
+    "type" : "artist",
+    "uri" : "spotify:artist:6f4XkbvYlXMH0QgVRzW0sM"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/13y7CgLHjMVRMDqxdx0Xdo"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 726807
+    },
+    "genres" : [ "dirty south rap", "dwn trap", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/13y7CgLHjMVRMDqxdx0Xdo",
+    "id" : "13y7CgLHjMVRMDqxdx0Xdo",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/e8eeadc5509005396978782adedc3cb3e924bc4d",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/e75cef24c9272417d422c6ff5bb9865132f2adf5",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/dd076a73a8ae0a8c525ac71ae1d2a17a56f2f189",
+      "width" : 160
+    } ],
+    "name" : "Gucci Mane",
+    "popularity" : 85,
+    "type" : "artist",
+    "uri" : "spotify:artist:13y7CgLHjMVRMDqxdx0Xdo"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/20sxb77xiYeusSH8cVdatc"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 887007
+    },
+    "genres" : [ "dwn trap", "gangster rap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/20sxb77xiYeusSH8cVdatc",
+    "id" : "20sxb77xiYeusSH8cVdatc",
+    "images" : [ {
+      "height" : 667,
+      "url" : "https://i.scdn.co/image/ff0870559e0919ac72796f4db181e1818596db54",
+      "width" : 1000
+    }, {
+      "height" : 427,
+      "url" : "https://i.scdn.co/image/d425994fecfe57c3c2d1664750a2fba071b7f6d4",
+      "width" : 640
+    }, {
+      "height" : 133,
+      "url" : "https://i.scdn.co/image/3c1584ed8786d903b689dcf12f390fe77fb1e53e",
+      "width" : 199
+    }, {
+      "height" : 43,
+      "url" : "https://i.scdn.co/image/daf6a77f079d7dd8c0d4f5ea1165eb63a286f6c4",
+      "width" : 64
+    } ],
+    "name" : "Meek Mill",
+    "popularity" : 77,
+    "type" : "artist",
+    "uri" : "spotify:artist:20sxb77xiYeusSH8cVdatc"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6oMuImdp5ZcFhWP0ESe6mG"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 1112548
+    },
+    "genres" : [ "dwn trap", "pop rap", "rap", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/6oMuImdp5ZcFhWP0ESe6mG",
+    "id" : "6oMuImdp5ZcFhWP0ESe6mG",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/6f77fdcfcb5e42002d3ebd7711681bf0ccc3057e",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/b4324d7b26fa40bffda59843c301353246bf1f40",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/cb7251a34b200df57adf21220e3db882665a3240",
+      "width" : 160
+    } ],
+    "name" : "Migos",
+    "popularity" : 90,
+    "type" : "artist",
+    "uri" : "spotify:artist:6oMuImdp5ZcFhWP0ESe6mG"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/0NWbwDZY1VkRqFafuQm6wk"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 183552
+    },
+    "genres" : [ "dirty south rap", "dwn trap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music", "underground hip hop" ],
+    "href" : "https://api.spotify.com/v1/artists/0NWbwDZY1VkRqFafuQm6wk",
+    "id" : "0NWbwDZY1VkRqFafuQm6wk",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/51d133a97907d8edc7031e5de5e1bc62f9a89ba3",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/1217f4cc897bf7e6fc563b88d38214d489aafe80",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/3dfa8276fdf68c644c8ddf521dd8260b60b598d0",
+      "width" : 160
+    } ],
+    "name" : "Mike WiLL Made-It",
+    "popularity" : 76,
+    "type" : "artist",
+    "uri" : "spotify:artist:0NWbwDZY1VkRqFafuQm6wk"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 921788
+    },
+    "genres" : [ "dwn trap", "pop rap", "rap", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/0Y5tJX1MQlPlqiwlOH1tJY",
+    "id" : "0Y5tJX1MQlPlqiwlOH1tJY",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/bbab705fecb1133cf5d3580f7cdb32966797b7e4",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/78b7b6b6b69baa0fe4352e2edd349895cf737141",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/270570e16abb405058f22a9d35a5f27aab0211f4",
+      "width" : 160
+    } ],
+    "name" : "Travis Scott",
+    "popularity" : 87,
+    "type" : "artist",
+    "uri" : "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1sBkRIssrMs1AbVkOJbc7a"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 1108982
+    },
+    "genres" : [ "dance pop", "dirty south rap", "dwn trap", "gangster rap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/1sBkRIssrMs1AbVkOJbc7a",
+    "id" : "1sBkRIssrMs1AbVkOJbc7a",
+    "images" : [ {
+      "height" : 1000,
+      "url" : "https://i.scdn.co/image/a8d9c1ae4760377ab19b2b734d78f226d0f7108c",
+      "width" : 1000
+    }, {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab7b3bc79f376b57b079432343711e8924448872",
+      "width" : 640
+    }, {
+      "height" : 200,
+      "url" : "https://i.scdn.co/image/13520d28a80accac8f46594e0378ff53c5903853",
+      "width" : 200
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ae5fcc364a7925b72bc06f5d2e4d4ab334423de2",
+      "width" : 64
+    } ],
+    "name" : "Rick Ross",
+    "popularity" : 81,
+    "type" : "artist",
+    "uri" : "spotify:artist:1sBkRIssrMs1AbVkOJbc7a"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5dHt1vcEm9qb8fCyLcB3HL"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 486487
+    },
+    "genres" : [ "dwn trap", "escape room", "gangster rap", "hip hop", "indie r&b", "pop rap", "rap", "southern hip hop", "trap music", "underground hip hop" ],
+    "href" : "https://api.spotify.com/v1/artists/5dHt1vcEm9qb8fCyLcB3HL",
+    "id" : "5dHt1vcEm9qb8fCyLcB3HL",
+    "images" : [ {
+      "height" : 563,
+      "url" : "https://i.scdn.co/image/45b61196414e38bbfe8389dc0d852246ad352876",
+      "width" : 1000
+    }, {
+      "height" : 360,
+      "url" : "https://i.scdn.co/image/b9fe96e4a94e297d46f76b7600858a5aa7877ec4",
+      "width" : 640
+    }, {
+      "height" : 113,
+      "url" : "https://i.scdn.co/image/7cad237335ad7db3ca3a6f6a384f09674415f066",
+      "width" : 200
+    }, {
+      "height" : 36,
+      "url" : "https://i.scdn.co/image/cc444207f4302d499b5cf05fac8b8637069c9a23",
+      "width" : 64
+    } ],
+    "name" : "A$AP Ferg",
+    "popularity" : 74,
+    "type" : "artist",
+    "uri" : "spotify:artist:5dHt1vcEm9qb8fCyLcB3HL"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/7pFeBzX627ff0VnN6bxPR4"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 592875
+    },
+    "genres" : [ "dwn trap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/7pFeBzX627ff0VnN6bxPR4",
+    "id" : "7pFeBzX627ff0VnN6bxPR4",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/e285c8f623c9a7c18bb523f1415b007f132792d1",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/37cd25a81e6346506417afa50327b6dd0cbbfdde",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/d68260b81cd57f5d1b359a3545ef137788334d1c",
+      "width" : 160
+    } ],
+    "name" : "Desiigner",
+    "popularity" : 78,
+    "type" : "artist",
+    "uri" : "spotify:artist:7pFeBzX627ff0VnN6bxPR4"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3HiuzBlSW7pGDXlSFMhO2g"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 195228
+    },
+    "genres" : [ "deep trap", "dirty south rap", "dwn trap", "gangster rap", "pop rap", "rap", "southern hip hop", "trap music", "underground hip hop" ],
+    "href" : "https://api.spotify.com/v1/artists/3HiuzBlSW7pGDXlSFMhO2g",
+    "id" : "3HiuzBlSW7pGDXlSFMhO2g",
+    "images" : [ {
+      "height" : 1000,
+      "url" : "https://i.scdn.co/image/fa18ee3aeeefb11b07c8d9169dc474d2cf7be34f",
+      "width" : 1000
+    }, {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/f71a6bd42b4fab024bceacb535e69792b4f5b4fa",
+      "width" : 640
+    }, {
+      "height" : 200,
+      "url" : "https://i.scdn.co/image/f0250d75f61a2533e57195a3971e96def6966612",
+      "width" : 200
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/dc2cddf108d2ff1a7657867954cb621c134543fa",
+      "width" : 64
+    } ],
+    "name" : "Young Dolph",
+    "popularity" : 74,
+    "type" : "artist",
+    "uri" : "spotify:artist:3HiuzBlSW7pGDXlSFMhO2g"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/67nwj3Y5sZQLl72VNUHEYE"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 749788
+    },
+    "genres" : [ "dance pop", "dirty south rap", "dwn trap", "gangster rap", "hip hop", "indie r&b", "pop", "pop rap", "r&b", "rap", "southern hip hop", "trap music", "urban contemporary" ],
+    "href" : "https://api.spotify.com/v1/artists/67nwj3Y5sZQLl72VNUHEYE",
+    "id" : "67nwj3Y5sZQLl72VNUHEYE",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ad19fc7b636c3e986b22947ec44dcc1c605aec70",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/7da49fd9b42ab7f9bb30b89e6e58a2ebbd63df71",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/0a562e613bc4135e63a4954dfb8cec8f25ec08d8",
+      "width" : 160
+    } ],
+    "name" : "Wale",
+    "popularity" : 77,
+    "type" : "artist",
+    "uri" : "spotify:artist:67nwj3Y5sZQLl72VNUHEYE"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/15iVAtD3s3FsQR4w1v6M0P"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 538142
+    },
+    "genres" : [ "deep trap", "drill", "dwn trap", "gangster rap", "hip hop", "pop rap", "rap", "southern hip hop", "trap music", "underground hip hop" ],
+    "href" : "https://api.spotify.com/v1/artists/15iVAtD3s3FsQR4w1v6M0P",
+    "id" : "15iVAtD3s3FsQR4w1v6M0P",
+    "images" : [ {
+      "height" : 665,
+      "url" : "https://i.scdn.co/image/80699c74462357c45a8acfec20acbed428231dd5",
+      "width" : 999
+    }, {
+      "height" : 426,
+      "url" : "https://i.scdn.co/image/abfde69981c616c105af2c0a803218dbb71211ed",
+      "width" : 640
+    }, {
+      "height" : 133,
+      "url" : "https://i.scdn.co/image/997b69e706d64517977f3d6f237632bf632f34af",
+      "width" : 200
+    }, {
+      "height" : 43,
+      "url" : "https://i.scdn.co/image/fd52ba482c8042ea7e06deceff42bde3a16dfe74",
+      "width" : 64
+    } ],
+    "name" : "Chief Keef",
+    "popularity" : 70,
+    "type" : "artist",
+    "uri" : "spotify:artist:15iVAtD3s3FsQR4w1v6M0P"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5bgfj5zUoWpyeVatGDjn6H"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 379019
+    },
+    "genres" : [ "crunk", "deep pop r&b", "deep trap", "deep underground hip hop", "dirty south rap", "dwn trap", "gangster rap", "pop rap", "r&b", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/5bgfj5zUoWpyeVatGDjn6H",
+    "id" : "5bgfj5zUoWpyeVatGDjn6H",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/5fcb331d21f4f2c7635ca0233b79979c467dc4cc",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/12c32863743b50e2f1edf1e89b38b30766611e67",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/28d7b0ee2e0a59dbe048fd0d63bb996c49214d5c",
+      "width" : 160
+    } ],
+    "name" : "K CAMP",
+    "popularity" : 67,
+    "type" : "artist",
+    "uri" : "spotify:artist:5bgfj5zUoWpyeVatGDjn6H"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5gCRApTajqwbnHHPbr2Fpi"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 639934
+    },
+    "genres" : [ "crunk", "dirty south rap", "dwn trap", "gangster rap", "hip hop", "memphis hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/5gCRApTajqwbnHHPbr2Fpi",
+    "id" : "5gCRApTajqwbnHHPbr2Fpi",
+    "images" : [ {
+      "height" : 815,
+      "url" : "https://i.scdn.co/image/c54d9d845e0a2a9e3e6d3874e95c899fd9dca814",
+      "width" : 999
+    }, {
+      "height" : 522,
+      "url" : "https://i.scdn.co/image/6eebbaa78d6d2b14d09cfa53dc5e5b15f4c36d5f",
+      "width" : 640
+    }, {
+      "height" : 163,
+      "url" : "https://i.scdn.co/image/1b0115930daf8e9292f81f7e2341037ccd1e2d03",
+      "width" : 200
+    }, {
+      "height" : 52,
+      "url" : "https://i.scdn.co/image/a97d89e5ee20ce48d0c5e23a7fed03e6a4643dce",
+      "width" : 64
+    } ],
+    "name" : "Juicy J",
+    "popularity" : 78,
+    "type" : "artist",
+    "uri" : "spotify:artist:5gCRApTajqwbnHHPbr2Fpi"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1URnnhqYAYcrqrcwql10ft"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 821939
+    },
+    "genres" : [ "dwn trap", "rap", "southern hip hop", "trap music" ],
+    "href" : "https://api.spotify.com/v1/artists/1URnnhqYAYcrqrcwql10ft",
+    "id" : "1URnnhqYAYcrqrcwql10ft",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/16ef00f20df354b81062dd6c4bc53ded49e9f07e",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/e5f354f4fcd07dc414aa2a5a9e62ce62121e7b5d",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/a01996c181d195a7f4720ca38b96da30283df3ef",
+      "width" : 160
+    } ],
+    "name" : "21 Savage",
+    "popularity" : 80,
+    "type" : "artist",
+    "uri" : "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+  } ]
+}
