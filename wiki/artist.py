@@ -35,17 +35,45 @@ class Artist(object):
                 
 #this still needs some work
     def add_to_list_of_names(self, artist_name):
-        if self.search_names(artist_name) == False:
-            new_list = bisect.insort(self.get_list_of_names(), artist_name)
-            self.f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlist.txt', 'w')
+        if self.search_names(artist_name) == -1:
+            #new_list = bisect.insort(self.get_list_of_names(), artist_name)
+            old_list =self.get_list_of_names()
+            inserted_list = [artist_name]
+            new_list = self.mergelist(inserted_list)
+            print(new_list)
+            self.f = open('/home/allee/Projects/mlmusic/music_services/lastfm/artistlisttest.txt', 'w')
             for i in new_list:
-                self.f.write(new_list)
+                self.f.write(i)
             print("added")
+            self.f = close()
         else:
             print("artist already in the list")
-        
+#need some work
+    def mergelist(self, new_artist):
+        old = self.get_list_of_names()
+        result = []
+        xi = 0
+        yi = 0
+
+        while True:
+            if xi > len(old):
+                result.extend(new_artist[yi:])
+                return result
+            
+            if yi >= len(new_artist):
+                result.extend(old[xi:])
+                return result
+            
+            if old[xi:] <= new_artist[yi]:
+                result.append(new_artist[xi])
+                xi += 1
+            else:
+                result.append(new_artist[yi])
+                yi += 1
 
     def test_script(this_object):
         this_object.list_of_names()
 
 testscript = Artist()
+artz = "Asaad"
+print(testscript.add_to_list_of_names(artz))

@@ -2,7 +2,7 @@
 
 #Precomplie project dependencies
 Python 3.5 >
-Pip3 (should be installed with python)
+pip3 (should be installed with python)
 virtualenv (a pip package) (to install on windows http://www.tylerbutler.com/2012/05/how-to-install-python-pip-and-virtualenv-on-windows-with-powershell/)
 
 # Set up dev environment on local machine on Linux/Mac OS X
