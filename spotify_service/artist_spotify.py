@@ -1,13 +1,13 @@
 import requests
 import json
-from wiki.artist import Artist
+from artist import Artist
 #curl -X GET "https://api.spotify.com/v1/artists/1RyvyyTE3xzB2ZywiAwp0i"
 
 class Arist_Sportify:
     artist_info = []
 
     def get_artist_id(self, artist_name):
-        #artist_name = artist_name[:-1]
+        artist_name = artist_name[:-1]
         spotify_search_artist = "https://api.spotify.com/v1/search?q=&type=artist"
         isascii = lambda s: len(s) == len(s.encode())
         if isascii(artist_name) == True:
@@ -32,6 +32,7 @@ class Arist_Sportify:
         spotify_related_url = "https://api.spotify.com/v1/artists//related-artists"
         if artist_id != None:
             spotify_related_url = spotify_related_url[:35] + artist_id + spotify_related_url[35:]
+            print(spotify_related_url)
         else:
             return False
         response = requests.get(spotify_related_url)
@@ -44,13 +45,16 @@ class Arist_Sportify:
                 self.artist_info = self.artist_info + list_of_related
         else:
             return False
-        print(self.artist_info)
+        return self.artist_info
                 
 
 
-#future = "Future"
-something = Artist.get_list_of_names()
+future = "Future"
+something = Artist()
 testing = Arist_Sportify()
-for i in something:
-    print(testing.get_artist_id(i))
-#testing.get_related_artist(future)
+what = something.get_list_of_names()
+for i in what:
+    print(testing.get_related_artist(i))
+wow = testing.get_related_artist(future)
+j = json.dumps(wow)
+#print(j)
