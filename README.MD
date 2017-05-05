@@ -22,5 +22,5 @@ cd music_related
 pip3 -R install requirements.txt
 python3 manage.py runserver
 
-# create a new microservice 
+# create a new django app
 python manage.py startapp [app_name]
